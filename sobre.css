@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(42, 42, 42) ;
+    color: aliceblue;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    background-color: rgb(41, 41, 41);
+    font-size: larger;
+}
+button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+    transform: scale(1.1);
+}

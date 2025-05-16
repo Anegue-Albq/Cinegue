@@ -1,0 +1,70 @@
+body{
+    background-color:rgb(42, 42, 42) ;
+}
+table{
+    border-color:  rgb(42, 42, 42);
+    background-color: rgb(42, 42, 42);
+    color: aliceblue;
+    border-color:  rgb(42, 42, 42);
+
+}
+#Titulo{
+    margin-top: -15px;
+}
+
+img{
+    transition: 0.4s;
+}
+td{
+    width: 10%;
+}
+img:hover{
+    transform: scale(0.9);
+}
+#A:hover{
+    color: rgb(152, 152, 152);
+}
+footer{
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    bottom: -1;
+    background-color: rgb(41, 41, 41);
+    font-size: larger;
+}
+div{
+    justify-content: right;
+    display: flex;
+
+}
+div:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+    transform: scale(0.9);
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(67, 67, 67);
+    border: solid black 3px;
+    text-align: center;
+    width: 5%;
+    color: white;
+    font-weight: bold;
+}
+.box:hover{
+    background-color: rgb(0, 0, 0);
+    border: solid white 3px;
+    text-align: center;
+    width: 5%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+
+
