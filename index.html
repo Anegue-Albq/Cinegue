@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -11,24 +11,28 @@
 <body>
 
     <header>
-        <h1 style="color: blue;font-size: xx-large;">CineAlbuquerque</h1>
+        <h1>CineAlbuquerque</h1>
     </header>
+
     <main>
-        <div id="perfis">
-            <p><a href="site.html"><img width="250px" src="imgs/Perfil1.png"
-                        alt=""></a><br>Perfil 1</p>
-            <p><a href="site.html"><img width="250px" src="imgs/Perfil2.png"
-                        alt=""></a><br>Perfil 2</p>
-            <p><a href="site.html"><img width="250px" src="imgs/Perfil3.png"
-                        alt=""></a><br>Perfil 3</p>
+        <div class="caixa">
+            <form action="site.html" method="post">
+                <h2>Login</h2>
+                
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Entrar</button>
+            </form>
         </div>
-        <div style="font-size: xx-large;color: blue">
-            <br>
-            <p>Escolha seu perfil</p>
-        </div>
-
     </main>
-    <footer style="color: white;">&copy; CineAlbuquerque &reg;</footer>
-</body>
 
+    <footer>
+        &copy; CineAlbuquerque &reg;
+    </footer>
+
+</body>
 </html>

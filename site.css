@@ -1,9 +1,9 @@
 body{
-    background-color:rgb(42, 42, 42) ;
+    background: linear-gradient(to top,black,rgb(21, 21, 58),rgb(40, 40, 83));
 }
 table{
     border-color:  rgb(42, 42, 42);
-    background-color: rgb(42, 42, 42);
+    background: linear-gradient(to top,black,rgb(21, 21, 58),rgb(40, 40, 83));;
     color: aliceblue;
     border-color:  rgb(42, 42, 42);
 
@@ -34,7 +34,7 @@ footer{
     position: absolute;
     padding: 10px;
     bottom: -1;
-    background-color: rgb(41, 41, 41);
+    background-color: black;
     font-size: larger;
 }
 div{

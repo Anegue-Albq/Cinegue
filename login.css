@@ -1,32 +1,83 @@
-h1{
+body {
+    background: linear-gradient(to top,black,rgb(21, 21, 58),rgb(40, 40, 83));
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: blue;
+    font-size: 3.5rem;
+}
+
+main {
+    flex: 1;
+    display: flex;
     justify-content: center;
-    display: flex;
+    align-items: center;
 }
-body{
-    background-color: rgb(44, 44, 44);
+
+.caixa {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
 }
-#perfis{
+
+.caixa h2 {
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.caixa label {
+    display: block;
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.caixa input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.caixa button {
+    width: 100%;
+    padding: 12px;
+    background: blue;
     color: white;
-    justify-content: space-around;
-    display: flex;
-    font-size: x-large;
-    transition: 0.4s;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
     
 }
-img:hover{
+
+.caixa button:hover {
+    background: darkblue;
     transform: scale(0.9);
+    transition: 0.3s;
 }
 
-p{
+footer {
+    width: 1500px;
     text-align: center;
-    font-size: x-large;
-}
-footer{
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    padding: 5px;
-    bottom: 0;
-    font-size: larger;
-
+    padding: 18px;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-size: 0.9rem;
 }
